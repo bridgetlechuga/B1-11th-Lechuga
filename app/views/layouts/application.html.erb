@@ -24,6 +24,7 @@
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="/ideas">Ideas</a></li>
+        <li><a href="/recipes">Recipes</a></li>
         <% if user_signed_in? %>
           Logged in as <strong> <%= current_user.email %></strong>
           <li><%= link_to 'Edit Profile', edit_user_registration_path %></li>
